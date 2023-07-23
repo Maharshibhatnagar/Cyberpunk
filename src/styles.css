@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'myFont';
+  src: url('Cyberpunk.ttf');
+  
+}
+
+html,
+body {
+  overscroll-behavior: none;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'myFont';
+  text-align: center;
+  background: #000;
+  height: 200vh;
+}
+
+.container h3 {
+   z-index: 999;
+}
+.neon-text {
+  color: #EEE61B;
+  text-shadow: 0 0 10px #06d6a0, 0 0 20px #06d6a0, 0 0 30px #06d6a0;
+}
