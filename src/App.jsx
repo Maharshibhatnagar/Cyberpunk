@@ -247,4 +247,4 @@ export default function App() {
   );
 }
 
-problem with buiild folder
+problem with build folder
